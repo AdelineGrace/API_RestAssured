@@ -1,0 +1,1 @@
+{"uuid":"16bc7422-0aa6-4d24-99e1-84d956a0df21","name":"Scenario Outline: Check if user able to add a record with invalid fields in request body for Assignment Module","children":["56262344-f0c6-4570-9275-41ca54197c7a"],"befores":[],"afters":[],"start":1690486470443,"stop":1690486470738}

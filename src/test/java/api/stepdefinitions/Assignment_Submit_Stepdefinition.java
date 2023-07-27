@@ -11,6 +11,7 @@ import java.util.ResourceBundle;
 import org.json.JSONTokener;
 
 import api.payload.Assignment_Submit_Payload;
+import api.utilities.Constants;
 import api.utilities.LoggerLoad;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -48,6 +49,7 @@ public class Assignment_Submit_Stepdefinition {
 		FileReader Fr = new FileReader(file);
 		JSONTokener jsonTokener = new JSONTokener(Fr);
 		org.json.JSONObject payload = new org.json.JSONObject(jsonTokener);
+		
 		response = given().header("Content-Type", "application/json").body(payload.toString()).when().post(post_url);
 		if (response.jsonPath().get("assignmentId") != null) {
 			assignmentId = response.jsonPath().get("assignmentId");
@@ -141,7 +143,8 @@ public class Assignment_Submit_Stepdefinition {
 
 	@When("User sends HTTPS Request with valid Assignment ID")
 	public void user_sends_https_request_with_valid_assignment_id() {
-		response = given().pathParam("assignmentId", assignmentId).when().get(get_url);
+		
+		response = given().pathParam("assignmentId", Constants.Assignment_Id_Chaining).when().get(get_url);
 	}
 
 	// delete with valid submission ID

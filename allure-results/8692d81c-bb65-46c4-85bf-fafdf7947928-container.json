@@ -1,0 +1,1 @@
+{"uuid":"8692d81c-bb65-46c4-85bf-fafdf7947928","name":"Scenario Outline: Check if user able to create a program missing mandatory fields in request body","children":["5f820f6d-f33e-4352-bbc0-7ed89cc72f46"],"befores":[],"afters":[],"start":1690460239717,"stop":1690460240069}

@@ -1,0 +1,1 @@
+{"uuid":"e59d0134-4d83-4789-8b44-6f80fd5cafc9","name":"Scenario: Check if user able to add a record with valid endpoint and request body using dynamic variables for Assignment Module","children":["dac0d343-1f48-4468-afde-79c70a80240c"],"befores":[],"afters":[],"start":1690460255199,"stop":1690460255836}

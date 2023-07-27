@@ -1,0 +1,1 @@
+{"uuid":"d135aa13-2f32-49a7-9fec-9c37dea38980","name":"Scenario Outline: Check if user able to  create a submission  with valid endpoint and request body in Assignment Submit Module(non existing values)","children":["2d767d58-bfd1-4157-a9f1-9e7ee0dc0ced"],"befores":[],"afters":[],"start":1690460265515,"stop":1690460265781}

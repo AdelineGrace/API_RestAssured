@@ -1,0 +1,1 @@
+{"uuid":"c16a15b3-e343-4f2b-be1f-866f240bcdef","name":"Scenario Outline: Check if user able to create a Batch with valid endpoint and request body (existing value in Batch Name)","children":["0d84edc4-c94f-412a-8cdd-ca402ebc4964"],"befores":[],"afters":[],"start":1690460243933,"stop":1690460244254}

@@ -1,0 +1,1 @@
+{"uuid":"2c84e20d-1962-49ea-ad51-25478c931f05","name":"Scenario: Check if user able to retrieve a user with valid LMS API","children":["02450e9f-9b41-4373-aa48-876c54fbb0e2"],"befores":[],"afters":[],"start":1690460249813,"stop":1690460252807}
