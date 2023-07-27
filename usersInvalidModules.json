@@ -1,0 +1,19 @@
+{
+"userComments": "Working in LMS as a Staff",
+"userEduPg": "M.E",
+"userEduUg": "B.E",
+"userFirstName": "Nagalakshmi",
+"userLastName": "Chandreasan",
+"userLinkedinUrl": "https://www.linkedin.com/in/nagalakshmi",
+"userLocation": "Atlanta",
+"userMiddleName": "",
+
+"userRoleMaps": [
+{
+"roleId": "R01",
+"userRoleStatus": "Staff"
+}
+],
+"userTimeZone": "EST",
+"userVisaStatus": "H4-EAD"
+}

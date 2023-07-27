@@ -1,0 +1,1 @@
+{"uuid":"2a679460-20cd-4aa8-b740-27001f748991","name":"Scenario: Check if user able to create a user missing mandatory fields in request body","children":["61d61949-06cc-4ecb-932c-d5ed407f86fe"],"befores":[],"afters":[],"start":1690405010191,"stop":1690405010339}

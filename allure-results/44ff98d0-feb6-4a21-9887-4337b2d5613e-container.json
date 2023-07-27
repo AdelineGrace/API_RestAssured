@@ -1,0 +1,1 @@
+{"uuid":"44ff98d0-feb6-4a21-9887-4337b2d5613e","name":"Scenario: Check if user able to retrieve a record with valid BATCH ID with no assignments for Assignment Module","children":["c3fb7a0f-4a83-4302-ac81-abae745b98d2"],"befores":[],"afters":[],"start":1690405021463,"stop":1690405021617}

@@ -1,0 +1,11 @@
+{
+  "programId": 7700,
+  "roleId": "R01",
+  "userId": "U9772",
+  "userRoleProgramBatches": [
+    {
+      "batchId": 7694,
+      "userRoleProgramBatchStatus": "Active"
+    }
+]
+}

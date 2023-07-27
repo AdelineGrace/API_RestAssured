@@ -1,0 +1,1 @@
+{"uuid":"8f32a5d1-f007-4e0f-82eb-06fe4a93f40a","name":"Scenario Outline: Check if user able to add a record missing assignment name in request body for Assignment Module","children":["6f59419b-25e8-4f5f-a4c4-39fb5259f112"],"befores":[],"afters":[],"start":1690405016603,"stop":1690405016980}

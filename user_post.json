@@ -1,0 +1,58 @@
+{
+"userComments": "Working in LMS as a Staff",
+"userEduPg": "M.E",
+"userEduUg": "B.E",
+"userFirstName": "Bala",
+"userLastName": "Murugan",
+"userLinkedinUrl": "https://www.linkedin.com/in/bala",
+"userLocation": "Texas",
+"userMiddleName": "",
+"userPhoneNumber":1236549878,
+"userRoleMaps": [
+{
+"roleId": "R01",
+"userRoleStatus": "Staff"
+}
+],
+"userTimeZone": "CST",
+"userVisaStatus": "H1B"
+}
+
+{
+"userComments": "Working in LMS as a Staff",
+"userEduPg": "MCA",
+"userEduUg": "BCA",
+"userFirstName": "Vijaya",
+"userLastName": "Chandresan",
+"userLinkedinUrl": "https://www.linkedin.com/in/vijaya",
+"userLocation": "Atlanta",
+"userMiddleName": "",
+"userPhoneNumber":6549871569,
+"userRoleMaps": [
+{
+"roleId": "R02",
+"userRoleStatus": "Admin"
+}
+],
+"userTimeZone": "EST",
+"userVisaStatus": "H4-EAD"
+},
+{
+"userComments": "User",
+"userEduPg": "MS",
+"userEduUg": "B.E",
+"userFirstName": "Rithu",
+"userLastName": "Aarya",
+"userLinkedinUrl": "https://www.linkedin.com/in/rithu",
+"userLocation": "California",
+"userMiddleName": "",
+"userPhoneNumber":7894564578,
+"userRoleMaps": [
+{
+"roleId": "R03",
+"userRoleStatus": "Student"
+}
+],
+"userTimeZone": "PST",
+"userVisaStatus": "Indian_Citizen"
+}

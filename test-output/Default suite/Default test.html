@@ -1,0 +1,680 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>87/6/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jul 27 00:22:13 EDT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>33 seconds (33490 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve a grades with valid Student ID for Assignment Submit Module", "CURD Operations for Assignment Submit Module"</td>
+<td><div><pre>java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1418)
+	at org.testng.Assert.assertEquals(Assert.java:1382)
+	at org.testng.Assert.assertEquals(Assert.java:1428)
+	at api.stepdefinitions.Assignment_Submit_Stepdefinition.user_receives_ok_status_with_response_body_for_assignment_submit_module(Assignment_Submit_Stepdefinition.java:112)
+	at ✽.User receives 200 OK Status with response body for Assignment Submit Module.(file:///C:/Users/User/eclipse-workspace/Team12-Api-CodeWarriors/src/test/resources/features/5_Submission.feature:70)
+</pre></div><a href='#' onClick='toggleBox("stack-trace204934069", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace204934069'><pre>java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1418)
+	at org.testng.Assert.assertEquals(Assert.java:1382)
+	at org.testng.Assert.assertEquals(Assert.java:1428)
+	at api.stepdefinitions.Assignment_Submit_Stepdefinition.user_receives_ok_status_with_response_body_for_assignment_submit_module(Assignment_Submit_Stepdefinition.java:112)
+	at ✽.User receives 200 OK Status with response body for Assignment Submit Module.(file:///C:/Users/User/eclipse-workspace/Team12-Api-CodeWarriors/src/test/resources/features/5_Submission.feature:70)
+</pre></div></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve a grades with valid Assignment ID for assignment Submit Module", "CURD Operations for Assignment Submit Module"</td>
+<td><div><pre>java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1418)
+	at org.testng.Assert.assertEquals(Assert.java:1382)
+	at org.testng.Assert.assertEquals(Assert.java:1428)
+	at api.stepdefinitions.Assignment_Submit_Stepdefinition.user_receives_ok_status_with_response_body_for_assignment_submit_module(Assignment_Submit_Stepdefinition.java:112)
+	at ✽.User receives 200 OK Status with response body for Assignment Submit Module.(file:///C:/Users/User/eclipse-workspace/Team12-Api-CodeWarriors/src/test/resources/features/5_Submission.feature:46)
+</pre></div><a href='#' onClick='toggleBox("stack-trace47445734", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace47445734'><pre>java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1418)
+	at org.testng.Assert.assertEquals(Assert.java:1382)
+	at org.testng.Assert.assertEquals(Assert.java:1428)
+	at api.stepdefinitions.Assignment_Submit_Stepdefinition.user_receives_ok_status_with_response_body_for_assignment_submit_module(Assignment_Submit_Stepdefinition.java:112)
+	at ✽.User receives 200 OK Status with response body for Assignment Submit Module.(file:///C:/Users/User/eclipse-workspace/Team12-Api-CodeWarriors/src/test/resources/features/5_Submission.feature:46)
+</pre></div></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to update a submission with valid  submission ID and mandatory request body", "CURD Operations for Assignment Submit Module"</td>
+<td><div><pre>java.lang.AssertionError: expected [200] but found [400]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1418)
+	at org.testng.Assert.assertEquals(Assert.java:1382)
+	at org.testng.Assert.assertEquals(Assert.java:1428)
+	at api.stepdefinitions.Assignment_Submit_Stepdefinition.user_receives_ok_status_with_response_body_for_assignment_submit_module(Assignment_Submit_Stepdefinition.java:112)
+	at ✽.User receives 200 OK Status with response body for Assignment Submit Module.(file:///C:/Users/User/eclipse-workspace/Team12-Api-CodeWarriors/src/test/resources/features/5_Submission.feature:112)
+</pre></div><a href='#' onClick='toggleBox("stack-trace457229877", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace457229877'><pre>java.lang.AssertionError: expected [200] but found [400]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1418)
+	at org.testng.Assert.assertEquals(Assert.java:1382)
+	at org.testng.Assert.assertEquals(Assert.java:1428)
+	at api.stepdefinitions.Assignment_Submit_Stepdefinition.user_receives_ok_status_with_response_body_for_assignment_submit_module(Assignment_Submit_Stepdefinition.java:112)
+	at ✽.User receives 200 OK Status with response body for Assignment Submit Module.(file:///C:/Users/User/eclipse-workspace/Team12-Api-CodeWarriors/src/test/resources/features/5_Submission.feature:112)
+</pre></div></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve a submission with invalid Batch Id for Assignment Submit Module", "CURD Operations for Assignment Submit Module"</td>
+<td><div><pre>java.lang.AssertionError: expected [404] but found [200]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1418)
+	at org.testng.Assert.assertEquals(Assert.java:1382)
+	at org.testng.Assert.assertEquals(Assert.java:1428)
+	at api.stepdefinitions.Assignment_Submit_Stepdefinition.user_receives_not_found_status_with_message_and_boolean_success_details_for_submission_invalid_assignment_submit_module(Assignment_Submit_Stepdefinition.java:291)
+	at ✽.User receives 404 Not Found Status with message and boolean success details for submission invalid Assignment Submit Module.(file:///C:/Users/User/eclipse-workspace/Team12-Api-CodeWarriors/src/test/resources/features/5_Submission.feature:88)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1662654496", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1662654496'><pre>java.lang.AssertionError: expected [404] but found [200]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1418)
+	at org.testng.Assert.assertEquals(Assert.java:1382)
+	at org.testng.Assert.assertEquals(Assert.java:1428)
+	at api.stepdefinitions.Assignment_Submit_Stepdefinition.user_receives_not_found_status_with_message_and_boolean_success_details_for_submission_invalid_assignment_submit_module(Assignment_Submit_Stepdefinition.java:291)
+	at ✽.User receives 404 Not Found Status with message and boolean success details for submission invalid Assignment Submit Module.(file:///C:/Users/User/eclipse-workspace/Team12-Api-CodeWarriors/src/test/resources/features/5_Submission.feature:88)
+</pre></div></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to update a program with valid programName and mandatory request body for Program module", "CURD Operations for Program Module"</td>
+<td><div><pre>java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1418)
+	at org.testng.Assert.assertEquals(Assert.java:1382)
+	at org.testng.Assert.assertEquals(Assert.java:1428)
+	at api.stepdefinitions.Program_Stepdefinition.user_receives_ok_status_with_response_body_for_program_module(Program_Stepdefinition.java:175)
+	at ✽.User receives 200 OK Status with response body for program module(file:///C:/Users/User/eclipse-workspace/Team12-Api-CodeWarriors/src/test/resources/features/1_Program.feature:72)
+</pre></div><a href='#' onClick='toggleBox("stack-trace968481845", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace968481845'><pre>java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1418)
+	at org.testng.Assert.assertEquals(Assert.java:1382)
+	at org.testng.Assert.assertEquals(Assert.java:1428)
+	at api.stepdefinitions.Program_Stepdefinition.user_receives_ok_status_with_response_body_for_program_module(Program_Stepdefinition.java:175)
+	at ✽.User receives 200 OK Status with response body for program module(file:///C:/Users/User/eclipse-workspace/Team12-Api-CodeWarriors/src/test/resources/features/1_Program.feature:72)
+</pre></div></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to create a Batch with valid endpoint and request body in Batch Module (non existing values)", "CURD Operations for Batch Module"</td>
+<td><div><pre>java.lang.AssertionError: expected [201] but found [405]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1418)
+	at org.testng.Assert.assertEquals(Assert.java:1382)
+	at org.testng.Assert.assertEquals(Assert.java:1428)
+	at api.stepdefinitions.Batch_Stepdefinition.user_receives_created_status_with_response_body_for_batch_module(Batch_Stepdefinition.java:145)
+	at ✽.User receives 201 Created Status with response body for Batch Module.(file:///C:/Users/User/eclipse-workspace/Team12-Api-CodeWarriors/src/test/resources/features/2_Batch.feature:9)
+</pre></div><a href='#' onClick='toggleBox("stack-trace998101363", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace998101363'><pre>java.lang.AssertionError: expected [201] but found [405]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1418)
+	at org.testng.Assert.assertEquals(Assert.java:1382)
+	at org.testng.Assert.assertEquals(Assert.java:1428)
+	at api.stepdefinitions.Batch_Stepdefinition.user_receives_created_status_with_response_body_for_batch_module(Batch_Stepdefinition.java:145)
+	at ✽.User receives 201 Created Status with response body for Batch Module.(file:///C:/Users/User/eclipse-workspace/Team12-Api-CodeWarriors/src/test/resources/features/2_Batch.feature:9)
+</pre></div></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve a batch with valid BATCH ID", "CURD Operations for Batch Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to create a user missing mandatory fields in request body", "CRUD project for Users Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to update a program  missing mandatory fields in request body", "CURD Operations for Program Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to delete a submission with valid LMS API,invalid Submission Id for Assignment Submit module", "CURD Operations for Assignment Submit Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to update a program with  invalid program Name and request body", "CURD Operations for Program Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to delete a record with valid Assignment ID for Assignment Module", "CURD Operations for Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve all programs with valid LMS API for program module", "CURD Operations for Program Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to update a Batch with invalid batchID and mandatory request body", "CURD Operations for Batch Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to  assign user to program / batch with valid User Id and request body (missing field)", "CRUD project for Users Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve a submission with valid batch ID for Assignment Submit Module", "CURD Operations for Assignment Submit Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to delete a submission with valid submission Id for Assignment Submit Module", "CURD Operations for Assignment Submit Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve a record with valid Assignment ID for Assignment Module", "CURD Operations for Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve a record with valid BATCH ID for Assignment Module", "CURD Operations for Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to update a user with valid User ID and request body", "CRUD project for Users Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve a user with valid LMS API", "CRUD project for Users Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to delete a program with valid program ID for program module", "CURD Operations for Program Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve a batch with invalid BATCH ID", "CURD Operations for Batch Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to create a user missing mandatory fields in request body", "CRUD project for Users Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to  assign user to program / batch with invalid User Id and request body", "CRUD project for Users Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to delete a user with valid LMS API,invalid user Id", "CRUD project for Users Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve a submission with valid User ID for Assignment Submit Module", "CURD Operations for Assignment Submit Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to create a program with valid endpoint and request body in Program module(non existing values)", "CURD Operations for Program Module"</td>
+<td></td>
+<td>4</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to add a record with valid endpoint and request body in Assignment module (non existing values)", "CURD Operations for Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to create user with the valid endpoint and request body(non-existing values)", "CRUD project for Users Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve a batch with invalid Program Id", "CURD Operations for Batch Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to update a program with invalid programID and mandatory request body", "CURD Operations for Program Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve a grades with invalid Batch ID for Assignment Submit Module", "CURD Operations for Assignment Submit Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve all submission with valid LMS API for Assignment Submit Module", "CURD Operations for Assignment Submit Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve a grades with invalid Assignment ID for assignment Submit Module", "CURD Operations for Assignment Submit Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to delete a program with Invalid programName for program module", "CURD Operations for Program Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to delete a user with valid User Id", "CRUD project for Users Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able retrieve all user with valid LMS API", "CRUD project for Users Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve a record with valid BATCH ID with no assignments for Assignment Module", "CURD Operations for Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve a record with invalid LMS API endpoint for Assignment Module", "CURD Operations for Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to  create a submission  with valid endpoint and request body in Assignment Submit Module(non existing values)", "CURD Operations for Assignment Submit Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to  grade assignment with valid submission  Id and missing mandatory request body", "CURD Operations for Assignment Submit Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to assign user to program batch with valid User Id and request body", "CRUD project for Users Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve a batch with invalid BATCH NAME", "CURD Operations for Batch Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to delete a Batch with valid BatchId", "CURD Operations for Batch Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve a record with valid LMS API for Assignment Module", "CURD Operations for Assignment Module"</td>
+<td></td>
+<td>1</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to update a user with valid User Id and request body (missing field)", "CRUD project for Users Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to add a record with valid endpoint and request body using dynamic variables for Assignment Module", "CURD Operations for Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to add a record with valid endpoint and request body in Assignment module (existing values)", "CURD Operations for Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to create a submission missing mandatory fields in request body", "CURD Operations for Assignment Submit Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve a record with invalid BATCH ID for Assignment Module", "CURD Operations for Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve a grades with valid  batch ID Check for Assignment Submit Module", "CURD Operations for Assignment Submit Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to update a submission with invalid submission ID and mandatory request body", "CURD Operations for Assignment Submit Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to create a Batch missing mandatory fields in request body", "CURD Operations for Batch Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to update a submission with invalid submission ID and mandatory request body", "CURD Operations for Assignment Submit Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to add a record missing mandatory assignment description in request body for Assignment Module", "CURD Operations for Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to create a Batch with valid endpoint and request body (existing value in Batch Name)", "CURD Operations for Batch Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to update a user with valid User Id and request body", "CRUD project for Users Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to update a Batch with valid batchID and mandatory request body", "CURD Operations for Batch Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve a program with valid program ID for program module", "CURD Operations for Program Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to delete a program with valid LMS API,invalid program id for program module", "CURD Operations for Program Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to add a record with invalid fields in request body for Assignment Module", "CURD Operations for Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to delete a record with invalid endpoint for Assignment Module", "CURD Operations for Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve all batches  with valid LMS API", "CURD Operations for Batch Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to update a user with invalid User Id and request body", "CRUD project for Users Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to add a record missing assignment name in request body for Assignment Module", "CURD Operations for Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve a program with valid program ID for program module", "CURD Operations for Program Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to update a program with valid programID and mandatory request body for Program module", "CURD Operations for Program Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to create a program with valid endpoint and request body (existing values in Program Name)", "CURD Operations for Program Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if User retrieve a user with valid User ID", "CRUD project for Users Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user retrieve a user with", "CRUD project for Users Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve a batch with valid Program ID", "CURD Operations for Batch Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to update a record with invalid AssignmentID and mandatory request body", "CURD Operations for Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to update a record with valid AssignmentID and missing mandatory field Assignment Description for Assignment Module", "CURD Operations for Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve a batch with valid BATCH NAME", "CURD Operations for Batch Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve a submission with invalid User Id Assignment Submit Module", "CURD Operations for Assignment Submit Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to add a record with invalid fields in request body for Assignment Module", "CURD Operations for Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to update a record with valid AssignmentID and mandatory request body", "CURD Operations for Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to update a record with valid AssignmentID and missing mandatory field Assignment name for Assignment Module", "CURD Operations for Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to update a Batch with valid batchID and missing mandatory fields request body", "CURD Operations for Batch Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to update a user with invalid User Id and request body", "CRUD project for Users Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to delete a batch with invalid batchid", "CURD Operations for Batch Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve a user with valid LMS API", "CRUD project for Users Module"</td>
+<td></td>
+<td>2</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve a record with invalid Assignment ID for Assignment Module", "CURD Operations for Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to  grade assignment with valid submission  Id and mandatory request body", "CURD Operations for Assignment Submit Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to  create a submission  with valid endpoint and request body in Assignment Submit Module(non existing values)", "CURD Operations for Assignment Submit Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve a grades with invalid Student ID for Assignment Submit Module", "CURD Operations for Assignment Submit Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to update a program  missing mandatory fields in request body", "CURD Operations for Program Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to update a user with valid User ID and missing mandatory fields request body", "CRUD project for Users Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to add a record with invalid fields in request body for Assignment Module", "CURD Operations for Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to delete a record with invalid Assignment ID for Assignment Module", "CURD Operations for Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to  grade assignment with invalid submission  Id and mandatory request body", "CURD Operations for Assignment Submit Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+<tr>
+<td title='api.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to create a program missing mandatory fields in request body", "CURD Operations for Program Module"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.TestRunner@6200f9cb</td></tr>
+</table><p>
+</body>
+</html>

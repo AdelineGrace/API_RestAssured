@@ -1,0 +1,1627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="93" passed="87" failed="6" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-27T00:22:13 EDT" name="Default suite" finished-at="2023-07-27T00:22:47 EDT" duration-ms="33490">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-07-27T00:22:13 EDT" name="Default test" finished-at="2023-07-27T00:22:47 EDT" duration-ms="33490">
+      <class name="api.runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:13 EDT" name="setUpClass" finished-at="2023-07-27T00:22:14 EDT" duration-ms="965" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1357ee2a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:14 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:18 EDT" duration-ms="4035" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to create a program with valid endpoint and request body in Program module(non existing values)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Program Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:18 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:19 EDT" duration-ms="198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to create a program with valid endpoint and request body (existing values in Program Name)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Program Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:19 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:19 EDT" duration-ms="389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to create a program missing mandatory fields in request body"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Program Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:19 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:19 EDT" duration-ms="210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to retrieve all programs with valid LMS API for program module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Program Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:19 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:19 EDT" duration-ms="214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to retrieve a program with valid program ID for program module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Program Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:19 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:20 EDT" duration-ms="189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to retrieve a program with valid program ID for program module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Program Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:20 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:20 EDT" duration-ms="233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to update a program with valid programID and mandatory request body for Program module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Program Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:20 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:20 EDT" duration-ms="188" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to update a program with valid programName and mandatory request body for Program module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Program Module"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [404]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [404]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1418)
+at org.testng.Assert.assertEquals(Assert.java:1382)
+at org.testng.Assert.assertEquals(Assert.java:1428)
+at api.stepdefinitions.Program_Stepdefinition.user_receives_ok_status_with_response_body_for_program_module(Program_Stepdefinition.java:175)
+at ✽.User receives 200 OK Status with response body for program module(file:///C:/Users/User/eclipse-workspace/Team12-Api-CodeWarriors/src/test/resources/features/1_Program.feature:72)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:20 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:20 EDT" duration-ms="364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to update a program  missing mandatory fields in request body"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Program Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:20 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:21 EDT" duration-ms="346" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to update a program with invalid programID and mandatory request body"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Program Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:21 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:21 EDT" duration-ms="290" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to update a program with  invalid program Name and request body"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Program Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:21 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:21 EDT" duration-ms="307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to update a program  missing mandatory fields in request body"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Program Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:21 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:22 EDT" duration-ms="229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to delete a program with valid program ID for program module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Program Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:22 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:22 EDT" duration-ms="184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to delete a program with valid LMS API,invalid program id for program module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Program Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:22 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:22 EDT" duration-ms="163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to delete a program with Invalid programName for program module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Program Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:22 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:23 EDT" duration-ms="677" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to create a Batch with valid endpoint and request body in Batch Module (non existing values)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Batch Module"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [201] but found [405]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [201] but found [405]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1418)
+at org.testng.Assert.assertEquals(Assert.java:1382)
+at org.testng.Assert.assertEquals(Assert.java:1428)
+at api.stepdefinitions.Batch_Stepdefinition.user_receives_created_status_with_response_body_for_batch_module(Batch_Stepdefinition.java:145)
+at ✽.User receives 201 Created Status with response body for Batch Module.(file:///C:/Users/User/eclipse-workspace/Team12-Api-CodeWarriors/src/test/resources/features/2_Batch.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:23 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:23 EDT" duration-ms="363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to create a Batch with valid endpoint and request body (existing value in Batch Name)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Batch Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:23 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:23 EDT" duration-ms="333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to create a Batch missing mandatory fields in request body"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Batch Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:23 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:24 EDT" duration-ms="688" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to retrieve all batches  with valid LMS API"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Batch Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:24 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:24 EDT" duration-ms="179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to retrieve a batch with valid BATCH ID"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Batch Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:24 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:24 EDT" duration-ms="153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to retrieve a batch with invalid BATCH ID"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Batch Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:24 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:25 EDT" duration-ms="184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to retrieve a batch with valid BATCH NAME"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Batch Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:25 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:25 EDT" duration-ms="185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to retrieve a batch with invalid BATCH NAME"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Batch Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:25 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:25 EDT" duration-ms="153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to retrieve a batch with valid Program ID"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Batch Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:25 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:25 EDT" duration-ms="184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to retrieve a batch with invalid Program Id"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Batch Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:25 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:25 EDT" duration-ms="384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to update a Batch with valid batchID and mandatory request body"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Batch Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:25 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:26 EDT" duration-ms="161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to update a Batch with invalid batchID and mandatory request body"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Batch Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:26 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:26 EDT" duration-ms="177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to update a Batch with valid batchID and missing mandatory fields request body"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Batch Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:26 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:26 EDT" duration-ms="180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to delete a Batch with valid BatchId"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Batch Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:26 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:26 EDT" duration-ms="193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to delete a batch with invalid batchid"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Batch Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:26 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:26 EDT" duration-ms="182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to create user with the valid endpoint and request body(non-existing values)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CRUD project for Users Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:26 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:27 EDT" duration-ms="163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to create a user missing mandatory fields in request body"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CRUD project for Users Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:27 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:27 EDT" duration-ms="164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to create a user missing mandatory fields in request body"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CRUD project for Users Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:27 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:27 EDT" duration-ms="494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able retrieve all user with valid LMS API"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CRUD project for Users Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:27 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:27 EDT" duration-ms="169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if User retrieve a user with valid User ID"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CRUD project for Users Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:27 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:27 EDT" duration-ms="150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user retrieve a user with"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CRUD project for Users Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:27 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:28 EDT" duration-ms="142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to retrieve a user with valid LMS API"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CRUD project for Users Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:28 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:30 EDT" duration-ms="2080" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to retrieve a user with valid LMS API"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CRUD project for Users Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:30 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:30 EDT" duration-ms="405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to update a user with valid User ID and request body"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CRUD project for Users Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:30 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:30 EDT" duration-ms="151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to update a user with invalid User Id and request body"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CRUD project for Users Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:30 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:30 EDT" duration-ms="140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to update a user with valid User ID and missing mandatory fields request body"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CRUD project for Users Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:30 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:31 EDT" duration-ms="149" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to update a user with valid User Id and request body"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CRUD project for Users Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:31 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:31 EDT" duration-ms="166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to update a user with invalid User Id and request body"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CRUD project for Users Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:31 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:31 EDT" duration-ms="157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to update a user with valid User Id and request body (missing field)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CRUD project for Users Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:31 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:31 EDT" duration-ms="141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to assign user to program batch with valid User Id and request body"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CRUD project for Users Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:31 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:31 EDT" duration-ms="148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to  assign user to program / batch with invalid User Id and request body"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CRUD project for Users Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:31 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:31 EDT" duration-ms="162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to  assign user to program / batch with valid User Id and request body (missing field)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CRUD project for Users Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:31 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:31 EDT" duration-ms="141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to delete a user with valid User Id"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CRUD project for Users Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:31 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:32 EDT" duration-ms="151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to delete a user with valid LMS API,invalid user Id"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CRUD project for Users Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:32 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:32 EDT" duration-ms="543" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to add a record with valid endpoint and request body using dynamic variables for Assignment Module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:32 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:33 EDT" duration-ms="519" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to add a record with valid endpoint and request body in Assignment module (non existing values)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:33 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:33 EDT" duration-ms="361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to add a record with valid endpoint and request body in Assignment module (existing values)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:33 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:33 EDT" duration-ms="374" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to add a record missing assignment name in request body for Assignment Module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:33 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:34 EDT" duration-ms="381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to add a record missing mandatory assignment description in request body for Assignment Module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:34 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:34 EDT" duration-ms="423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to add a record with invalid fields in request body for Assignment Module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:34 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:35 EDT" duration-ms="384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to add a record with invalid fields in request body for Assignment Module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:35 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:35 EDT" duration-ms="340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to add a record with invalid fields in request body for Assignment Module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:35 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:37 EDT" duration-ms="1693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to retrieve a record with valid LMS API for Assignment Module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:37 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:37 EDT" duration-ms="251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to retrieve a record with invalid LMS API endpoint for Assignment Module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:37 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:37 EDT" duration-ms="361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to retrieve a record with valid Assignment ID for Assignment Module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:37 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:37 EDT" duration-ms="179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to retrieve a record with invalid Assignment ID for Assignment Module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:37 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:38 EDT" duration-ms="417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to retrieve a record with valid BATCH ID for Assignment Module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:38 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:38 EDT" duration-ms="190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to retrieve a record with invalid BATCH ID for Assignment Module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:38 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:38 EDT" duration-ms="180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to retrieve a record with valid BATCH ID with no assignments for Assignment Module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:38 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:39 EDT" duration-ms="272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to update a record with valid AssignmentID and mandatory request body"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:39 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:39 EDT" duration-ms="357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to update a record with invalid AssignmentID and mandatory request body"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:39 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:39 EDT" duration-ms="402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to update a record with valid AssignmentID and missing mandatory field Assignment name for Assignment Module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:39 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:40 EDT" duration-ms="329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to update a record with valid AssignmentID and missing mandatory field Assignment Description for Assignment Module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:40 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:40 EDT" duration-ms="178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to delete a record with valid Assignment ID for Assignment Module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:40 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:40 EDT" duration-ms="329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to delete a record with invalid Assignment ID for Assignment Module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:40 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:40 EDT" duration-ms="170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to delete a record with invalid endpoint for Assignment Module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:40 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:41 EDT" duration-ms="302" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to retrieve all submission with valid LMS API for Assignment Submit Module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Submit Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:41 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:41 EDT" duration-ms="197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to  create a submission  with valid endpoint and request body in Assignment Submit Module(non existing values)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Submit Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:41 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:41 EDT" duration-ms="201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to  create a submission  with valid endpoint and request body in Assignment Submit Module(non existing values)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Submit Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:41 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:41 EDT" duration-ms="162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to create a submission missing mandatory fields in request body"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Submit Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:41 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:41 EDT" duration-ms="158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to retrieve a grades with invalid Assignment ID for assignment Submit Module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Submit Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:41 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:41 EDT" duration-ms="152" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to retrieve a grades with valid Assignment ID for assignment Submit Module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Submit Module"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [404]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [404]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1418)
+at org.testng.Assert.assertEquals(Assert.java:1382)
+at org.testng.Assert.assertEquals(Assert.java:1428)
+at api.stepdefinitions.Assignment_Submit_Stepdefinition.user_receives_ok_status_with_response_body_for_assignment_submit_module(Assignment_Submit_Stepdefinition.java:112)
+at ✽.User receives 200 OK Status with response body for Assignment Submit Module.(file:///C:/Users/User/eclipse-workspace/Team12-Api-CodeWarriors/src/test/resources/features/5_Submission.feature:46)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:41 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:42 EDT" duration-ms="148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to retrieve a submission with invalid User Id Assignment Submit Module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Submit Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:42 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:42 EDT" duration-ms="145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to retrieve a submission with valid User ID for Assignment Submit Module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Submit Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:42 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:42 EDT" duration-ms="148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to retrieve a grades with invalid Student ID for Assignment Submit Module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Submit Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:42 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:42 EDT" duration-ms="156" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to retrieve a grades with valid Student ID for Assignment Submit Module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Submit Module"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [404]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [404]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1418)
+at org.testng.Assert.assertEquals(Assert.java:1382)
+at org.testng.Assert.assertEquals(Assert.java:1428)
+at api.stepdefinitions.Assignment_Submit_Stepdefinition.user_receives_ok_status_with_response_body_for_assignment_submit_module(Assignment_Submit_Stepdefinition.java:112)
+at ✽.User receives 200 OK Status with response body for Assignment Submit Module.(file:///C:/Users/User/eclipse-workspace/Team12-Api-CodeWarriors/src/test/resources/features/5_Submission.feature:70)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:42 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:42 EDT" duration-ms="146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to retrieve a grades with invalid Batch ID for Assignment Submit Module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Submit Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:42 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:42 EDT" duration-ms="150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to retrieve a grades with valid  batch ID Check for Assignment Submit Module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Submit Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:42 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:43 EDT" duration-ms="149" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to retrieve a submission with invalid Batch Id for Assignment Submit Module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Submit Module"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [404] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [404] but found [200]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1418)
+at org.testng.Assert.assertEquals(Assert.java:1382)
+at org.testng.Assert.assertEquals(Assert.java:1428)
+at api.stepdefinitions.Assignment_Submit_Stepdefinition.user_receives_not_found_status_with_message_and_boolean_success_details_for_submission_invalid_assignment_submit_module(Assignment_Submit_Stepdefinition.java:291)
+at ✽.User receives 404 Not Found Status with message and boolean success details for submission invalid Assignment Submit Module.(file:///C:/Users/User/eclipse-workspace/Team12-Api-CodeWarriors/src/test/resources/features/5_Submission.feature:88)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:43 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:43 EDT" duration-ms="147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to retrieve a submission with valid batch ID for Assignment Submit Module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Submit Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:43 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:43 EDT" duration-ms="157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to update a submission with invalid submission ID and mandatory request body"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Submit Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:43 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:43 EDT" duration-ms="174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to update a submission with invalid submission ID and mandatory request body"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Submit Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:43 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:43 EDT" duration-ms="170" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to update a submission with valid  submission ID and mandatory request body"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Submit Module"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [400]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [400]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1418)
+at org.testng.Assert.assertEquals(Assert.java:1382)
+at org.testng.Assert.assertEquals(Assert.java:1428)
+at api.stepdefinitions.Assignment_Submit_Stepdefinition.user_receives_ok_status_with_response_body_for_assignment_submit_module(Assignment_Submit_Stepdefinition.java:112)
+at ✽.User receives 200 OK Status with response body for Assignment Submit Module.(file:///C:/Users/User/eclipse-workspace/Team12-Api-CodeWarriors/src/test/resources/features/5_Submission.feature:112)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:43 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:43 EDT" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to  grade assignment with invalid submission  Id and mandatory request body"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Submit Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:43 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:43 EDT" duration-ms="162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to  grade assignment with valid submission  Id and missing mandatory request body"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Submit Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:43 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:43 EDT" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to  grade assignment with valid submission  Id and mandatory request body"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Submit Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:43 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:43 EDT" duration-ms="136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to delete a submission with valid LMS API,invalid Submission Id for Assignment Submit module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Submit Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:43 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T00:22:44 EDT" duration-ms="163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to delete a submission with valid submission Id for Assignment Submit Module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CURD Operations for Assignment Submit Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:api.runner.TestRunner@6200f9cb]" started-at="2023-07-27T00:22:44 EDT" name="tearDownClass" finished-at="2023-07-27T00:22:47 EDT" duration-ms="3188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- api.runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,1 @@
+{"uuid":"312743ac-8377-4ff7-a987-859faa061362","name":"Scenario: Check if user able to delete a submission with valid submission Id for Assignment Submit Module","children":["d9da9f96-4e55-4c2a-b99b-1d04f474ecee"],"befores":[],"afters":[],"start":1690431764002,"stop":1690431764150}

@@ -1,0 +1,1 @@
+{"uuid":"3b0dd00c-a45f-48e5-a7c5-7499e4fa879a","name":"Scenario: Check if user able to delete a record with valid Assignment ID for Assignment Module","children":["7f08c02e-f2fc-4b25-9ef5-e247fdac18d0"],"befores":[],"afters":[],"start":1690260263801,"stop":1690260263975}

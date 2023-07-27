@@ -1,0 +1,1 @@
+{"uuid":"c2c43925-2b00-4c73-ae79-ef921e5d9b0b","name":"Scenario: Check if user able to delete a record with invalid endpoint for Assignment Module","children":["a26ec21c-a9e4-4f16-be33-4ead264f3078"],"befores":[],"afters":[],"start":1690424434479,"stop":1690424434642}

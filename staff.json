@@ -1,0 +1,19 @@
+{
+"userComments": "admin",
+"userEduPg": "MCA",
+"userEduUg": "BCA",
+"userFirstName": "Vijaya",
+"userLastName": "Chandresan",
+"userLinkedinUrl": "https://www.linkedin.com/in/vijaya",
+"userLocation": "Atlanta",
+"userMiddleName": "",
+"userPhoneNumber":6549871569,
+"userRoleMaps": [
+{
+"roleId": "R02",
+"userRoleStatus": "Admin"
+}
+],
+"userTimeZone": "EST",
+"userVisaStatus": "H4-EAD"
+}

@@ -1,0 +1,1 @@
+{"uuid":"2eccdf4f-0200-456f-b9b1-40de41fae143","name":"Scenario Outline: Check if user able to update a program  missing mandatory fields in request body","children":["3e2944d3-ae19-4cbc-830e-3aea988ba594"],"befores":[],"afters":[],"start":1690424414809,"stop":1690424415163}

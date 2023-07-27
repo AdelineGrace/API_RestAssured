@@ -1,0 +1,1 @@
+{"uuid":"08591c98-55ca-4b1c-9b02-2298a8d014d8","name":"Scenario: Check if user able to update a user with valid User ID and missing mandatory fields request body","children":["ff4047e1-1a01-4ec5-b5ef-b78e6372739c"],"befores":[],"afters":[],"start":1690405013623,"stop":1690405013776}

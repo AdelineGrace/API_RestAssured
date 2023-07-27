@@ -1,0 +1,1 @@
+{"uuid":"ed0c5777-3450-40a9-b417-55940b69b6c3","name":"Scenario Outline: Check if user able to create a program with valid endpoint and request body in Program module(non existing values)","children":["a6f17fd3-fe36-46a1-8039-821b06d0350c"],"befores":[],"afters":[],"start":1690431735063,"stop":1690431738857}

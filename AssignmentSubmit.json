@@ -1,0 +1,46 @@
+{
+  "assignmentId": 3236,
+  "userId": "U9238",
+  "subDesc": "Test1",
+  "subComments": "test1",
+  "subPathAttach1": "test",
+  "subPathAttach2": "test",
+  "subPathAttach3": "test",
+  "subPathAttach4": "test",
+  "subPathAttach5": "test",
+  "subDateTime":  "07-25-2023 13:14:00",
+  "gradedBy": null,
+  "gradedDateTime": null,
+  "grade": 1
+}
+
+{
+  "assignmentId": 3197,
+  "userId": "U9343",
+  "subDesc": "Test1",
+  "subComments": "test1",
+  "subPathAttach1": "test",
+  "subPathAttach2": "test",
+  "subPathAttach3": "test",
+  "subPathAttach4": "test",
+  "subPathAttach5": "test",
+  "subDateTime":  "07-25-2023 13:14:00",
+  "gradedBy": null,
+  "gradedDateTime": null,
+  "grade": 0
+}
+
+{
+  "assignmentId": 4183,
+  "userId": "U9518",
+  "subDesc": "Test1",
+  "subComments": "test1",
+  "subPathAttach1": "test",
+  "subPathAttach2": "test",
+  "subPathAttach3": "test",
+  "subPathAttach4": "test",
+  "subPathAttach5": "test",
+  "gradedBy": null,
+  "gradedDateTime": null,
+  "grade": 0
+}

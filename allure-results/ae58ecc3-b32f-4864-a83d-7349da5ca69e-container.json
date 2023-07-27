@@ -1,0 +1,1 @@
+{"uuid":"ae58ecc3-b32f-4864-a83d-7349da5ca69e","name":"Scenario: Check if user able to retrieve a record with valid LMS API for Assignment Module","children":["6608b1f2-3b07-46bf-a872-16b9db785845"],"befores":[],"afters":[],"start":1690389460204,"stop":1690389461695}

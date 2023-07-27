@@ -1,0 +1,1 @@
+{"uuid":"0972f8cc-f69e-4324-8514-1b4a5236dec8","name":"Scenario: Check if user able to retrieve all batches  with valid LMS API","children":["76906f7c-ca58-4355-8036-746f75abc8fd"],"befores":[],"afters":[],"start":1690405007186,"stop":1690405007869}
